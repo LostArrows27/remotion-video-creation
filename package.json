@@ -1,0 +1,32 @@
+{
+  "name": "remotion",
+  "version": "1.0.0",
+  "description": "A Remotion project to generate videos with React and server-side rendering",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx remotion studio src/index.jsx",
+    "build": "node build.js",
+    "render": "node render.js",
+    "preview": "npx remotion studio src/index.jsx"
+  },
+  "keywords": [
+    "remotion",
+    "video",
+    "react",
+    "ssr"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@remotion/bundler": "^4.0.229",
+    "@remotion/cli": "^4.0.229",
+    "@remotion/renderer": "^4.0.229",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1",
+    "remotion": "^4.0.229"
+  },
+  "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
